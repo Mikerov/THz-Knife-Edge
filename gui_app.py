@@ -1,15 +1,13 @@
-from pyqtgraph.Qt import QtGui, QtCore
+from pyqtgraph.Qt import QtGui
 import numpy as np
 import pyqtgraph as pg
-import pathlib2
 import os
 from knife_edge_1 import load_positions, determine_y, derivative, gaus
 from scipy.optimize import curve_fit
 from sympy import Symbol
 from sympy.solvers import solve
 
-import pyqtgraph.parametertree.parameterTypes as pTypes
-from pyqtgraph.parametertree import Parameter, ParameterTree, ParameterItem, registerParameterType
+from pyqtgraph.parametertree import Parameter, ParameterTree
 
 pg.setConfigOption('background', 'w')
 pg.setConfigOption('foreground', 'b')
