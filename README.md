@@ -5,4 +5,5 @@ THz-TDS measurements at different positions of the knife. The app will extract p
 
 ![GUI Screen](Capture.PNG?raw=true "Title")
 
-Bad change!
+
+This code was written as part of the work as research associate in AG Koch.
